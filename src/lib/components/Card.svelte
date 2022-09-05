@@ -105,4 +105,17 @@
   .dollar-sign {
     font-size: 0.6em;
   }
+
+  @media (min-width: 48rem) {
+    .card:nth-child(2) {
+      padding: 3.5em 2em;
+    }
+
+    .card:first-child {
+      border-radius: 8px 0 0 8px;
+    }
+    .card:last-child {
+      border-radius: 0 8px 8px 0;
+    }
+  }
 </style>

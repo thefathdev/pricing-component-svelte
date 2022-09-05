@@ -26,11 +26,24 @@
 <style>
   .bg {
     position: absolute;
-    max-width: 100%;
-    max-height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     z-index: 2;
+  }
+
+  .bg svg:first-child {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .bg svg:nth-child(2) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
   }
 </style>

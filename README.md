@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/whatTheFath/pricing-component-svelte](https://github.com/whatTheFath/pricing-component-svelte)
+- Live Site URL: [https://pricista-svelte-comp.vercel.app/](https://pricista-svelte-comp.vercel.app/)
 
 ## My process
 

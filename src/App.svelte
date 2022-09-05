@@ -29,8 +29,6 @@
     z-index: 1;
   }
   .wrapper {
-    display: flex;
-    flex-direction: column;
     position: relative;
     z-index: 3;
     padding: 4em 1em;
