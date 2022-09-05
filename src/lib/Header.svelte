@@ -6,6 +6,7 @@
 
 <style>
   h1 {
+    text-align: center;
     color: var(--clr-neutral-400);
   }
 </style>

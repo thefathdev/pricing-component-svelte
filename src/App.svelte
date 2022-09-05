@@ -8,7 +8,6 @@
 
   const changePlan = (e) => {
     plan = e.detail ? 'monthly' : 'annually'
-    console.log(plan)
   }
 </script>
 
@@ -16,7 +15,7 @@
   <Background />
   <div class="wrapper">
     <Header marginBottom="1em" />
-    <ChoosePlan on:changePlan={changePlan} marginBottom="0.5em" />
+    <ChoosePlan on:changePlan={changePlan} marginBottom="5em" />
     <PlanOption {plan} />
   </div>
 </main>
@@ -32,7 +31,6 @@
   .wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
     position: relative;
     z-index: 3;
     padding: 4em 1em;

@@ -4,9 +4,16 @@
   export let plan = 'annually'
 </script>
 
-<h2>{plan}</h2>
 <div class="plan-option">
   {#each data as detail}
     <Card {detail} {plan} />
   {/each}
 </div>
+
+<style>
+  .plan-option {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25em;
+  }
+</style>
